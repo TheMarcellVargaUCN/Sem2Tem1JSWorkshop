@@ -1,15 +1,9 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
 
-  html,
-  body {
-    margin: 0;
-    height: 100%;
-    width: 100%;
-  }
-
-  .mfp-s-loading .mfp-arrow { 
-    display: none;
- }
- 
 /* .Grid-img{
   align-self: center;
   display: grid;
@@ -49,10 +43,8 @@
     margin-top: 10%;
 }  */
 
-
-
-
 /* The grid: Four equal columns that floats next to each other */
+
 .row {
   align-self: center;
   display: grid;
@@ -64,110 +56,122 @@
 }
 
 /* Style the images inside the grid */
-.img1{
+
+.img1 {
   text-align: center;
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
-  grid-row-end: 2; 
+  grid-row-end: 2;
   margin-top: 10%;
-  opacity: 0.8; 
-  cursor: pointer; 
-}
-.img2{
-  text-align: center;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2; 
-  margin-top: 10%;
-  opacity: 0.8; 
-  cursor: pointer; 
-}
-.img3{
-  text-align: center;
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2; 
-  margin-top: 10%;
-  opacity: 0.8; 
-  cursor: pointer; 
-}
-/* Style the images inside the grid */
-.img4{
-  text-align: center;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 3; 
-  margin-top: 10%;
-  opacity: 0.8; 
-  cursor: pointer; 
-}
-.img5{
-  text-align: center;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3; 
-  margin-top: 10%;
-  opacity: 0.8; 
-  cursor: pointer; 
-}
-.img6{
-  text-align: center;
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 2;
-  grid-row-end: 3; 
-  margin-top: 10%;
-  opacity: 0.8; 
-  cursor: pointer; 
+  opacity: 0.8;
+  cursor: pointer;
 }
 
-.img7{
+.img2 {
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-top: 10%;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.img3 {
+  text-align: center;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-top: 10%;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* Style the images inside the grid */
+
+.img4 {
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin-top: 10%;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.img5 {
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin-top: 10%;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.img6 {
+  text-align: center;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin-top: 10%;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.img7 {
   text-align: center;
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 3;
-  grid-row-end: 4; 
+  grid-row-end: 4;
   margin-top: 10%;
-  opacity: 0.8; 
-  cursor: pointer; 
+  opacity: 0.8;
+  cursor: pointer;
 }
-.img8{
+
+.img8 {
   text-align: center;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 3;
-  grid-row-end: 4; 
+  grid-row-end: 4;
   margin-top: 10%;
-  opacity: 0.8; 
-  cursor: pointer; 
+  opacity: 0.8;
+  cursor: pointer;
 }
-.img9{
+
+.img9 {
   text-align: center;
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 3;
-  grid-row-end: 4; 
+  grid-row-end: 4;
   margin-top: 10%;
-  opacity: 0.8; 
-  cursor: pointer; 
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 .container {
-   position: fixed;
-   margin-top: -42%;
-   text-align: center;
+  position: fixed;
+  margin-top: -42%;
+  text-align: center;
   /* display: none; */
 }
- /* .closebtn {
+
+/* .closebtn {
   position: absolute; */
-  /* top: 10px;
+
+/* top: 10px;
   right: 15px; */
-  /* color: white;
+
+/* color: white;
   font-size: 35px;
   cursor: pointer;
 } */
@@ -199,4 +203,3 @@
 
 
  */
-
