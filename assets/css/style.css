@@ -157,18 +157,19 @@
 }
 
 .container {
-   position: relative;
+   position: fixed;
+   margin-top: -42%;
    text-align: center;
   /* display: none; */
 }
- .closebtn {
-  position: absolute;
+ /* .closebtn {
+  position: absolute; */
   /* top: 10px;
   right: 15px; */
-  color: white;
+  /* color: white;
   font-size: 35px;
   cursor: pointer;
-}
+} */
 
 /* 
 .column img:hover {
