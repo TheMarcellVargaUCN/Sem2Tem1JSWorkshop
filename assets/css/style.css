@@ -6,7 +6,10 @@
     width: 100%;
   }
 
-
+  .mfp-s-loading .mfp-arrow { 
+    display: none;
+ }
+ 
 /* .Grid-img{
   align-self: center;
   display: grid;
@@ -45,8 +48,6 @@
     grid-row-end: 2; 
     margin-top: 10%;
 }  */
-
-
 
 
 
